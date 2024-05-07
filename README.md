@@ -1,7 +1,14 @@
 # Power-BI-Project
 
-Telcom Company Churn Analysis using Power BI
+## [Telcom Company Churn Analysis using Power BI](https://github.com/VidhyabharathirajC/Power-BI-Project)
 
-Used Power BI to explore and visualize customer churn data from a telcom company, Identified the main factors influencing customer churn by applying tree map analysis.
+In this project, I utilized Power BI, a leading data visualization tool, to transform a CSV dataset into a compelling dashboard that provides clear insights. The project involved:
 
-Segmented customers by churn category, location and gender by using bar chart, funnel and map visualization. Generated insights and recommendations to reduce customer churn and increase retention.
+### Data Integration and Visualization:
+Commenced with importing a comprehensive CSV dataset. Implemented **card** visuals for displaying key metrics such as customer count, phone service subscriptions, and total revenue.
+### Demographic and Geographic Insights:
+Utilized **clustered bar charts** for demographic analysis, including customer demographics, preferred payment methods, and internet service types.
+Employed **map** visuals to illustrate the geographic distribution of customers. Created **funnel** visuals to depict the customer journey from acquisition to churn. Analyzed contract types with a **donut chart** to highlight prevalent contracts.
+### In-Depth Churn Analysis:
+Developed a **tree map** visual to provide a clear view of the primary reasons for customer churn, offering insights into customer needs and service gaps.
+![](https://github.com/Vidhya-bharathi-raj/Project-Images/blob/main/Power%20BI%20Project%20Image/Screenshot%202024-04-07%20142953.jpg)
