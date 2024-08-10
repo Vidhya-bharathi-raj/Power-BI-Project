@@ -2,42 +2,50 @@
 
 ## [Telcom Company Churn Analysis using Power BI](https://github.com/VidhyabharathirajC/Power-BI-Project)
 
-# **1. Data Scraping:**
+# **Data Integration and Visualization:**
 
-      Employed the **Beautiful Soup** library to extract data from a specified URL.
+Commenced with importing a comprehensive CSV dataset. Implemented **card** visuals for displaying key metrics such as customer count, phone service subscriptions, and total revenue.
 
-![Screenshot 2024-07-31 173031.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c1ef36-0975-46c1-ad51-974843803b44/6a8e366f-a80f-4300-9ae5-01aeca2e392a/Screenshot_2024-07-31_173031.png)
+# **Demographic and Geographic Insights:**
 
-# **2. Data Manipulation:**
+Utilized **clustered bar charts** for demographic analysis, including customer demographics, preferred payment methods, and internet service types. 
 
-Used the **Pandas** library to clean and structure the data for analysis.
+Employed **map** visuals to illustrate the geographic distribution of customers. Created **funnel** visuals to depict the customer journey from acquisition to churn. 
 
-![Screenshot 2024-07-31 173043.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c1ef36-0975-46c1-ad51-974843803b44/d9cbd705-ba91-4e8f-8e41-a3c7dfecbfd9/Screenshot_2024-07-31_173043.png)
+Analyzed contract types with a D**onut chart** to highlight prevalent contracts.
 
-# **3. Data Visualization:**
+# **In-Depth Churn Analysis:**
 
-Created insightful visualizations using Matplotlib, including bar charts, subplots, line charts, pie charts, scatter plots.
+Developed a **tree map** visual to provide a clear view of the primary reasons for customer churn, offering insights into customer needs and service gaps.
 
-![Screenshot 2024-07-31 173053.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c1ef36-0975-46c1-ad51-974843803b44/d3598019-4e22-45e8-9bd0-3455f17af24b/Screenshot_2024-07-31_173053.png)
+!https://github.com/Vidhya-bharathi-raj/Project-Images/raw/main/Power%20BI%20Project%20Image/Screenshot%202024-04-07%20142953.jpg
 
-- A **bar chart** showcasing the ‘Top 10 countries by population’.
+# Figure 1: "Count of Customer Status"
 
-![Screenshot 2024-07-31 173104.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c1ef36-0975-46c1-ad51-974843803b44/1b86d255-8f2f-4df4-8c95-d519e2e08064/Screenshot_2024-07-31_173104.png)
+- **Insight:** The majority of customers who remained with the company had either a one-year or two-year contract.
+- **Analysis:** This suggests that longer contract terms might be associated with higher customer retention. It could imply that customers who commit to longer contracts feel more satisfied or have a stronger sense of loyalty.
 
-- **Subplots** comparing ‘Population change trends’ across various countries.
+![Screenshot 2024-06-26 195121.png](https://github.com/Vidhya-bharathi-raj/Project-Images/blob/main/Power%20BI%20Project%20Image/Screenshot%202024-06-26%20195121.png)
 
-![Screenshot 2024-07-31 173114.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c1ef36-0975-46c1-ad51-974843803b44/1a43975d-e78d-4a60-875a-d890bb252ba0/Screenshot_2024-07-31_173114.png)
+# Figure 2: "Churn Category"
 
-- A **line plot** for the ‘Top 10 countries by land area’.
+- **Insight:** 841 customers left their telecom service because of the competitor service.
+- **Analysis:** Competitor service could be a significant reason for customer churn. This suggests that the company may need to focus on competitive pricing, better service offerings, or improved customer experience to retain customers.
 
-![Screenshot 2024-07-31 173122.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c1ef36-0975-46c1-ad51-974843803b44/9c532976-2760-4205-a755-65d5721fff20/Screenshot_2024-07-31_173122.png)
+![Screenshot 2024-06-26 201644.png](https://github.com/Vidhya-bharathi-raj/Project-Images/blob/main/Power%20BI%20Project%20Image/Screenshot%202024-06-26%20201644.png)
 
-- A **pie chart** illustrating the ‘World share percentage based on land area’ of the top 10 countries.
+# Figure 3: "Payment Method"
 
-![Screenshot 2024-07-31 173128.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c1ef36-0975-46c1-ad51-974843803b44/2f6e75f6-bbb0-4a2b-9db2-3b8cfda659d5/Screenshot_2024-07-31_173128.png)
+- **Insight:** The company received 12.67 million in payments through the "Bank withdrawal" payment method.
+- **Analysis:** This indicates that "Bank withdrawal" is a popular payment method among customers, contributing a significant portion of the company's revenue. The preference for this payment method could be due to its convenience or perceived reliability. Understanding why customers prefer this method could help in tailoring payment options or improving the user experience.
 
-- A **scatter plot** correlating ‘Fertility rate and population’ figures.
+![Screenshot 2024-06-26 194917.png](https://github.com/Vidhya-bharathi-raj/Project-Images/blob/main/Power%20BI%20Project%20Image/Screenshot%202024-06-26%20194917.png)
 
-![Screenshot 2024-07-31 173135.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d5c1ef36-0975-46c1-ad51-974843803b44/a46741be-d74a-4a94-b5bf-f822a1961b91/Screenshot_2024-07-31_173135.png)
+# Figure 4: "Count of Contract"
 
-“This project highlighted the powerful capabilities of Jupyter Notebook in data scraping, manipulation, and visualization, culminating in actionable insights into demographic patterns.”
+- **Insight:** The number of customers using month-to-month contracts was 3610. It appears that month-to-month contracts were the most commonly used scheme among customers.
+- **Analysis:** The popularity of month-to-month contracts suggests a preference for flexibility among customers. Customers might choose this option to avoid long-term commitments or because they are uncertain about their long-term usage. This insight can be crucial for the company when designing promotional strategies or considering loyalty programs. It might also indicate a higher churn risk, as customers on month-to-month contracts can more easily leave the service.
+
+![Screenshot 2024-06-26 194947.png](https://github.com/Vidhya-bharathi-raj/Project-Images/blob/main/Power%20BI%20Project%20Image/Screenshot%202024-06-26%20194947.png)
+
+"This project showcased the analytical capabilities of Power BI and also emphasized the importance of visual storytelling in understanding customer behaviour and driving business decisions."
