@@ -18,7 +18,7 @@ Analyzed contract types with a D**onut chart** to highlight prevalent contract
 
 Developed a **tree map** visual to provide a clear view of the primary reasons for customer churn, offering insights into customer needs and service gaps.
 
-!https://github.com/Vidhya-bharathi-raj/Project-Images/raw/main/Power%20BI%20Project%20Image/Screenshot%202024-04-07%20142953.jpg
+![](https://github.com/Vidhya-bharathi-raj/Project-Images/blob/main/Power%20BI%20Project%20Image/Screenshot%202024-06-26%20195121.png)
 
 # Figure 1: "Count of Customer Status"
 
